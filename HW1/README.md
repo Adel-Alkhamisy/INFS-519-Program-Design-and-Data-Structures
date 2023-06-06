@@ -9,3 +9,5 @@ Internally, a Table class is designed to store entries, i.e., key-value pairs of
 The Table class uses a linked list of Nodes for storing entries, and a private field 'mark' for traversing the list and reading the entries. Any additional methods added to the Table class must be private, maintaining the privacy of all instance fields in all classes of the program.
 
 This Table class isn't specifically an address book but rather a general tool for storing and operating on pairs of strings. The address book is an instance of the Table class and utilizes its public methods for the operations.
+
+AddressBook.java is the class that has the main method.
